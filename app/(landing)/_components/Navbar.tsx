@@ -188,7 +188,7 @@ const Navbar = () => {
                 {contact.map((x, index) => (
                     <NavigationMenuItem key={index}>
                     
-                        <Button variant={"outline"} >
+                        <Button variant={"outline"}  className="hover:bg-green-100" >
                             <Link href={x.href}>{x.item}</Link>
                         </Button>
                 
